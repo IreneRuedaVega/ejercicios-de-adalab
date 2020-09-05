@@ -1,3 +1,3 @@
 # ejercicios-de-adalab
 
-Soluciones a los ejercicios de Adalab.
+Mis soluciones a los ejercicios de Adalab.
