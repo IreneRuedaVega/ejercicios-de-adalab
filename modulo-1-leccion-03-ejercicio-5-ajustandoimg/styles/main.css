@@ -1,0 +1,15 @@
+.container {
+  width: 100px;
+  height: 100px;
+  overflow: auto;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 5px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.imagen {
+  width: 100px;
+  height: 100px;
+}
