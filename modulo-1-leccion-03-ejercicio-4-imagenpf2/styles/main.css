@@ -1,0 +1,28 @@
+* {
+  font-family: arial;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  width: 500px;
+  border-style: dotted;
+}
+div {
+  border-style: solid;
+  margin: 20px;
+  padding: 5px;
+  background-color: grey;
+}
+
+p {
+  text-align: justify;
+  margin: 15px;
+}
+
+.imagen {
+  margin-right: 125px;
+  margin-left: 125px;
+}
