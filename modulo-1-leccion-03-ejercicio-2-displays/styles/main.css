@@ -1,0 +1,26 @@
+:root {
+  /*Cambiar el valor de display a: block, none, 
+    inline-block e inline para ver los diferentes cambios
+    si pones uno u otro*/
+  --display: block;
+}
+
+.display-1 {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  display: var(--display);
+}
+
+.display-2 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: var(--display);
+}
+.display-3 {
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  display: var(--display);
+}
