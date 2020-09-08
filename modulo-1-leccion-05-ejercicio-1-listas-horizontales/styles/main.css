@@ -1,0 +1,10 @@
+.container {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.items li {
+  display: inline;
+  justify-content: space-between;
+  padding: 12px;
+}
