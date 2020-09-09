@@ -5,6 +5,5 @@
 
 .items li {
   display: inline;
-  justify-content: space-between;
   padding: 12px;
 }
