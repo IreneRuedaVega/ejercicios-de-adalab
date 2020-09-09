@@ -1,6 +1,7 @@
 .divPadre {
   border: 1px solid black;
   box-sizing: border-box;
+  margin: 30px;
 }
 
 .div1,
@@ -15,20 +16,23 @@
 .div1 {
   background: red;
   position: relative;
-  right: 100px;
-  top: 50px;
+  transform: translate(100px, 50px);
+  /*left: 100px;
+  top: 50px;*/
 }
 
 .div2 {
   background: yellow;
   position: relative;
-  left: 150px;
-  bottom: 320px;
+  transform: translate(-150px, -320px);
+  /* right: 150px;
+  bottom: 320px; */
 }
 
 .div3 {
   background: green;
   position: relative;
-  right: 180px;
-  bottom: 240px;
+  transform: translate(180px, -240px);
+  /* left: 180px;
+  bottom: 240px; */
 }
