@@ -1,0 +1,77 @@
+html {
+  /* font-size: 6.25rem; /*50x50*/ /* 1rem; */ /* 16px; */
+  font-size: 12.5rem; /*200x200*/
+}
+
+.smiley-1 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-family: "courier new";
+  font-weight: bold;
+  font-size: 50px;
+  color: #424242;
+  background: #ffcc00;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.smiley-2 {
+  width: 6.25rem;
+  height: 6.25rem;
+  line-height: 6.25rem;
+  text-align: center;
+  font-family: "courier new";
+  font-weight: bold;
+  font-size: 3.125rem;
+  color: #424242;
+  background: #ffcc00;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+/*50X50*/
+/*Hay que tocar el width, height, line-height, font-size*/
+
+.smiley-3 {
+  width: 3.125rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  text-align: center;
+  font-family: "courier new";
+  font-weight: bold;
+  font-size: 1.563rem;
+  color: #424242;
+  background: #ffcc00;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+/*200X200*/
+
+.smiley-4 {
+  width: 12.5rem;
+  height: 12.5rem;
+  line-height: 12.5rem;
+  text-align: center;
+  font-family: "courier new";
+  font-weight: bold;
+  font-size: 6.25rem;
+  color: #424242;
+  background: #ffcc00;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
