@@ -17,30 +17,43 @@
   &__logo {
     height: 20px;
   }
-}
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
+  @media all and (min-width: 768px) {
+    &__icon {
+      position: absolute;
+      top: -9999px;
+    }
 
-  &__link {
-    padding: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
-    color: $color-white;
-    font-family: "Circular";
+    &__logo {
+      height: 30px;
+    }
   }
 
-  &__link:hover {
-    color: $color-white;
-    background-color: $color-green;
-  }
+  @media all and (min-width: 768px) {
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
 
-  &__item--signup::before {
-    padding-left: 4px;
-    content: "|";
-    color: $color-white;
+      &__link {
+        padding: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        color: $color-white;
+        font-family: "Circular";
+      }
+
+      &__link:hover {
+        color: $color-white;
+        background-color: $color-green;
+      }
+
+      &__item--signup::before {
+        padding-left: 4px;
+        content: "|";
+        color: $color-white;
+      }
+    }
   }
 }
