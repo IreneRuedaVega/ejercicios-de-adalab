@@ -17,22 +17,22 @@
   justify-content: space-between;
   margin-bottom: 10px;
   margin-left: 10px;
-}
 
-.footer-menu__items {
-  text-align: center;
-  list-style-type: none;
-  padding: 15px;
-}
+  &__items {
+    text-align: center;
+    list-style-type: none;
+    padding: 15px;
+  }
 
-.footer-menu__links {
-  text-decoration: none;
-  color: $color-white;
-  padding: 15px;
-}
+  &__items:hover {
+    background-color: $color-green;
+  }
 
-.footer-menu__items:hover {
-  background-color: $color-green;
+  &__links {
+    text-decoration: none;
+    color: $color-white;
+    padding: 15px;
+  }
 }
 
 .copy {
@@ -40,16 +40,16 @@
   flex-direction: column;
   align-items: flex-end;
   margin: 20px;
-}
 
-.copy__spain {
-  padding: 10px;
-  margin-left: 0px;
-  position: relative;
-  left: 10px;
-}
+  &__spain {
+    padding: 10px;
+    margin-left: 0px;
+    position: relative;
+    left: 10px;
 
-.copy__spain--flags {
-  height: 12px;
-  width: 19px;
+    &--flags {
+      height: 12px;
+      width: 19px;
+    }
+  }
 }
