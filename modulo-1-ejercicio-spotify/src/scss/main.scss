@@ -1,9 +1,12 @@
 @import "./core/variables";
 @import "./core/reset";
-@import "./layout/newsletter";
 @import "./layout/header";
 @import "./layout/footer";
-@import "./pages/index";
+@import "./layout/benefit";
+@import "./components/hero";
+@import "./components/newsletter";
+@import "./components/newsletter";
+@import "./pages/benefits";
 
 //fonts
 @font-face {
