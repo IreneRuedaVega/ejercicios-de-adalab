@@ -11,14 +11,12 @@
 
 .footer-menu {
   display: flex;
-  flex-direction: rpw;
+  flex-direction: row;
   flex-wrap: wrap;
   position: relative;
   bottom: 2px;
 
   &__items {
-    text-align: center;
-    display: inline-block;
     text-align: center;
     list-style-type: none;
   }
@@ -39,7 +37,7 @@
 .copy {
   display: flex;
   flex-direction: column;
-  text-align: flex-start;
+  text-align: right;
 
   &__spain {
     padding: 5px;
@@ -50,12 +48,10 @@
     &--flags {
       margin-left: 5px;
       height: 15px;
-      vertical-align: text-bottom;
     }
   }
   &__year {
     margin-top: 5px;
     margin-bottom: 30px;
-    text-align: flex-end;
   }
 }
