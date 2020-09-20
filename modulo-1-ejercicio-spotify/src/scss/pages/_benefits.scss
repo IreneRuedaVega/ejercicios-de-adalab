@@ -1,3 +1,13 @@
-.main__list {
-  padding-left: 2rem;
+.benefits-title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 50px auto;
+  max-width: 400px;
 }

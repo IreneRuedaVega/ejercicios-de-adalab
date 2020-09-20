@@ -2,26 +2,25 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  background-color: black;
+  padding: 15px;
+  background-color: $color-black;
   font-size: 10px;
-  color: #999;
+  color: $color-secondary;
   width: 100%;
-  position: relative;
-  top: 0;
-  height: 80px;
 }
 
 .footer-menu {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  margin-left: 10px;
+  flex-direction: rpw;
+  flex-wrap: wrap;
+  position: relative;
+  bottom: 2px;
 
   &__items {
     text-align: center;
+    display: inline-block;
+    text-align: center;
     list-style-type: none;
-    padding: 15px;
   }
 
   &__items:hover {
@@ -30,26 +29,33 @@
 
   &__links {
     text-decoration: none;
-    color: $color-white;
-    padding: 15px;
+    color: $color-secondary;
+    margin-left: 0px;
+    display: inline-block;
+    padding: 7px;
   }
 }
 
 .copy {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  margin: 20px;
+  text-align: flex-start;
 
   &__spain {
-    padding: 10px;
+    padding: 5px;
     margin-left: 0px;
     position: relative;
     left: 10px;
 
     &--flags {
-      height: 12px;
-      width: 19px;
+      margin-left: 5px;
+      height: 15px;
+      vertical-align: text-bottom;
     }
+  }
+  &__year {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-align: flex-end;
   }
 }
