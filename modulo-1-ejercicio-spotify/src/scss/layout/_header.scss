@@ -30,7 +30,7 @@
 
   &__link:hover {
     color: $color-white;
-    background-color: green;
+    background-color: $color-green;
   }
 
   &__item--signup::before {

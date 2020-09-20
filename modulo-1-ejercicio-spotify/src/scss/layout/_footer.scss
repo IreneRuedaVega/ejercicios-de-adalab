@@ -2,44 +2,54 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 15px;
   background-color: black;
   font-size: 10px;
   color: #999;
   width: 100%;
   position: absolute;
   bottom: 0;
+  height: 80px;
 }
 
 .footer-menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 15px;
-  margin-top: 20px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
 
-.footer-menu-items {
-  padding-right: 15px;
+.footer-menu__items {
+  text-align: center;
   list-style-type: none;
+  padding: 15px;
 }
 
-.footer-menu-items-links {
+.footer-menu__links {
   text-decoration: none;
   color: $color-white;
+  padding: 15px;
 }
 
-.footer-menu-items-links:hover {
-  color: $color-white;
+.footer-menu__items:hover {
+  background-color: $color-green;
 }
 
 .copy {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
+  margin: 20px;
 }
 
-.copy-spain-flags {
+.copy__spain {
+  padding: 10px;
+  margin-left: 0px;
+  position: relative;
+  left: 10px;
+}
+
+.copy__spain--flags {
   height: 12px;
   width: 19px;
 }
