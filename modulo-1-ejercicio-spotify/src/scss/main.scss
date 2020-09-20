@@ -1,0 +1,27 @@
+@import "./core/variables";
+@import "./core/reset";
+@import "./layout/newsletter";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./pages/index";
+
+//fonts
+@font-face {
+  font-family: Circular;
+  src: url("https://sp-bootstrap.global.ssl.fastly.net/8.12.1/fonts/circular-light.woff2")
+      format("woff2"),
+    url("https://sp-bootstrap.global.ssl.fastly.net/8.12.1/fonts/circular-light.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url("https://sp-bootstrap.global.ssl.fastly.net/8.12.1/fonts/circular-black.woff2")
+      format("woff2"),
+    url("https://sp-bootstrap.global.ssl.fastly.net/8.12.1/fonts/circular-black.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+}

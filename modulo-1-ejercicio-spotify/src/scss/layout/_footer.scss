@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px;
+  background-color: black;
+  font-size: 10px;
+  color: #999;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.footer-menu-items {
+  padding-right: 15px;
+  list-style-type: none;
+}
+
+.footer-menu-items-links {
+  text-decoration: none;
+  color: $color-white;
+}
+
+.footer-menu-items-links:hover {
+  color: $color-white;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.copy-spain-flags {
+  height: 12px;
+  width: 19px;
+}
