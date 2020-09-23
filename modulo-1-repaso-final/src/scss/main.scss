@@ -1,7 +1,55 @@
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  background-color: #999;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+}
+
+.posts {
+  background-color: pink;
+}
+
+.aside {
+  background-color: orange;
+}
+
+.author,
+.links {
+  width: 50px;
+}
+
+.footer {
+  background-color: blue;
+}
+
+@media all and (min-width: 768px) {
+  body {
+    border-left: #999;
+  }
+
+  .main {
+    flex-direction: row;
+  }
+  .aside {
+    flex-direction: column;
+    width: 20%;
+    margin-top: -100px;
+  }
+
+  .author,
+  .links {
+    width: auto;
+  }
+
+  .author-image {
+    width: 90%;
+  }
+}
