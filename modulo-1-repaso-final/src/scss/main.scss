@@ -1,17 +1,6 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.header {
-  background-color: #999;
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  background-color: green;
-}
+@import "core/reset";
+@import "layout/header";
+@import "layout/main";
 
 .posts {
   background-color: pink;
@@ -34,10 +23,10 @@
   body {
     border-left: #999;
   }
-
-  .main {
-    flex-direction: row;
+  .posts {
+    width: 80%;
   }
+
   .aside {
     flex-direction: column;
     width: 20%;
