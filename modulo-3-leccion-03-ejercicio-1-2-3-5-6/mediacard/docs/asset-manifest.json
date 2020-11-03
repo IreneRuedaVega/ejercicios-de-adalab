@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.975ce0fd.chunk.css",
+    "main.js": "/static/js/main.2fc0d9cf.chunk.js",
+    "main.js.map": "/static/js/main.2fc0d9cf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5b731ccc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5b731ccc.js.map",
+    "static/js/2.df6adcfe.chunk.js": "/static/js/2.df6adcfe.chunk.js",
+    "static/js/2.df6adcfe.chunk.js.map": "/static/js/2.df6adcfe.chunk.js.map",
+    "static/js/3.8568412f.chunk.js": "/static/js/3.8568412f.chunk.js",
+    "static/js/3.8568412f.chunk.js.map": "/static/js/3.8568412f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.975ce0fd.chunk.css.map": "/static/css/main.975ce0fd.chunk.css.map",
+    "static/js/2.df6adcfe.chunk.js.LICENSE.txt": "/static/js/2.df6adcfe.chunk.js.LICENSE.txt",
+    "static/media/1077035.c31d61db.svg": "/static/media/1077035.c31d61db.svg",
+    "static/media/535234.b16558c9.svg": "/static/media/535234.b16558c9.svg",
+    "static/media/Irene.c8d69857.jpg": "/static/media/Irene.c8d69857.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b731ccc.js",
+    "static/js/2.df6adcfe.chunk.js",
+    "static/css/main.975ce0fd.chunk.css",
+    "static/js/main.2fc0d9cf.chunk.js"
+  ]
+}
