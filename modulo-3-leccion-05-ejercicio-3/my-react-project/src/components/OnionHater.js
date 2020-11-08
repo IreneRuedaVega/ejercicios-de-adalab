@@ -7,6 +7,9 @@ class OnionHater extends React.Component {
   }
 
   handleChange(event) {
+    /* if (event.target.value.toLowerCase().includes("cebolla ")) {
+      alert("Odio la cebolla");
+    } */
     const value = event.target.value;
     if (value.includes("cebolla")) {
       alert("ODIO LA CEBOLLA");
@@ -15,7 +18,7 @@ class OnionHater extends React.Component {
 
   render() {
     return (
-      <form>
+      <form className="text">
         <label>
           <textarea onChange={this.handleChange}></textarea>
         </label>
