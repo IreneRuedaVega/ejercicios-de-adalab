@@ -34,13 +34,20 @@ class Form extends React.Component {
     const value = target.type === "checkbox" ? target.checked : target.value;
     const id = target.id;
 
-    this.setState({
-      [id]: value,
-    });
+    this.setState(
+      {
+        [id]: value,
+      },
+      () => {
+        this.sendDataToApp(this.state);
+      }
+    );
   }
 
   changeSelect(event) {
-    this.setState({ language: event.currentTarget.value });
+    this.setState({ language: event.currentTarget.value }, () => {
+      this.sendDataToApp(this.state);
+    });
   }
 
   sendDataToApp(data) {
